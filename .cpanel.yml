@@ -1,0 +1,13 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/kelvina2/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R canvaskit $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp favicon.png $DEPLOYPATH
+    - /bin/cp flutter_service_worker.js $DEPLOYPATH
+    - /bin/cp flutter.js $DEPLOYPATH
+    - /bin/cp main.dart.js $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp version.json $DEPLOYPATH

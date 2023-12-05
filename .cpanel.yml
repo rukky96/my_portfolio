@@ -11,3 +11,5 @@ deployment:
     - /bin/cp main.dart.js $DEPLOYPATH
     - /bin/cp manifest.json $DEPLOYPATH
     - /bin/cp version.json $DEPLOYPATH
+    - /bin/cp my_icon.png $DEPLOYPATH
+    
